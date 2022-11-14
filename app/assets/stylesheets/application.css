@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+ @import "letters.css";
+ @import "form.css";
+
+ .container {
+  padding: 60px;
+ }
+
+.container>h1 {
+ text-align: center;
+ margin-bottom: 50px;
+}

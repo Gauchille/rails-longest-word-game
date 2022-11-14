@@ -1,0 +1,29 @@
+.form-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-block>* {
+  margin: 2% 20vw;
+}
+
+.submit {
+  background-color: #0d6efd8c;
+  color: white;
+  font-weight: bolder;
+  font-size: 2;
+  border: 0px solid gray;
+  margin: 2% 30vw;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.submit:hover {
+  background-color: GREEN ;
+}
+
+.form-block>label {
+text-align: center;
+    margin: 26px;
+    font-size: large;
+}
